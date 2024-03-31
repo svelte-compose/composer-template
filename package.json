@@ -1,0 +1,14 @@
+{
+  "name": "composer-template",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@svelte-compose/core": "^0.1.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "typescript": "^5.4.3"
+  }
+}
