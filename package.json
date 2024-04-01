@@ -4,11 +4,14 @@
   "bin": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "execute": "node ./src/index.js --path ./temp",
+    "test": "node ./src/test.js"
+  },
   "dependencies": {
-    "@svelte-compose/core": "^0.1.9"
+    "@svelte-compose/core": "^0.1.13"
   },
   "devDependencies": {
-    "@types/node": "^20.12.2",
-    "typescript": "^5.4.3"
+    "@svelte-compose/testing-library": "^0.0.3"
   }
 }

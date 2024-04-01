@@ -3,12 +3,12 @@ import { options } from './options.js';
 
 export const composer = defineComposerConfig({
     metadata: {
-        id: 'template',
+        id: 'composer-template',
         package: 'composer-template',
         version: '1.0.0',
         name: 'Composer Template',
         description: 'This a composer demo template',
-        category: categories.asd,
+        category: categories.styling,
         environments: { kit: true, svelte: true },
     },
     options,
