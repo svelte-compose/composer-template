@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   '@svelte-compose/core':
-    specifier: ^0.1.13
-    version: 0.1.13
+    specifier: ^0.2.0
+    version: 0.2.0
 
 devDependencies:
   '@svelte-compose/testing-library':
-    specifier: ^0.0.3
-    version: 0.0.3(@svelte-compose/bootstrap@0.0.7)(@svelte-compose/bulma@0.1.14)(@svelte-compose/mdsvex@0.1.13)(@svelte-compose/routify@0.0.8)(@svelte-compose/tailwindcss@0.1.13)
+    specifier: ^0.1.2
+    version: 0.1.2(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1)
 
 packages:
 
@@ -73,80 +73,80 @@ packages:
       - supports-color
     dev: true
 
-  /@svelte-compose/ast-manipulation@1.0.6:
-    resolution: {integrity: sha512-R+9iqBvyNxfyy0nEA4bMCSWsr0wuwdvtpy7CNRDmSnaAepAv1FcVlLqdZcTMitWVD2s5UhcHL4Ww0YJ/npuXxQ==}
+  /@svelte-compose/ast-manipulation@1.2.0:
+    resolution: {integrity: sha512-C/pISd70E63NRsqemUVqIfwy60TxgwKOyjp08ZY+9bg7u0v5MP1ij2KXGqc4/MSNvoCyK99fzezMZi+jf/tbYA==}
     dependencies:
-      '@svelte-compose/ast-tooling': 0.1.5
+      '@svelte-compose/ast-tooling': 0.2.0
 
-  /@svelte-compose/ast-tooling@0.1.5:
-    resolution: {integrity: sha512-87WUQOE5FaN76ZUy04MFP6qx/WkFgGodnN4rPJJ57YE/v4gh83eDKa+7zhLZdRK/Q6E3xBX0p5JeEixWoSB6RQ==}
+  /@svelte-compose/ast-tooling@0.2.0:
+    resolution: {integrity: sha512-ilqyPbJ3r01ytZ/qhNuqN3xRCEymWYUk1Ju9ytPfMrPaFVADj3wf8sw8YZ+c1ijA2yuKS0+5mR00ASQuHwtbrw==}
 
-  /@svelte-compose/bootstrap@0.0.7:
-    resolution: {integrity: sha512-H9tbND2D2PCosZfQ0/cgKdwx4T1lgnl5CgZgq1Ql2r1qGEG3uAmJN5fTo1sasgRX2qrn2SD7C4A8IGdmZiQ9kw==}
+  /@svelte-compose/bootstrap@0.1.1:
+    resolution: {integrity: sha512-9CWqemMs1rP4J0o+Ul2zcfhGuvqY4a7mxkoBGkKDAs9DjiM1E5ZsMqMSiFjXeAbrXNRsQ5tfIKMgt4hHoZq5/w==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/core': 0.2.0
     dev: true
 
-  /@svelte-compose/bulma@0.1.14:
-    resolution: {integrity: sha512-XO7acH/AI04/iJ5ku9Jfuep4hcTrt8e1sf1vMQr/D6Qv4FHwDiur2vy8iB/1gRnlAoqmNVCy3Vs23MSwru6ZbQ==}
+  /@svelte-compose/bulma@0.2.1:
+    resolution: {integrity: sha512-RY4oxve8cOgLguQhiig8rIG+n0V9qdf3SW4NfxKW2x2qWvcCqXFhoSseEMoz4kPlum3Yqh0af9mu8asv6lBOHA==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/core': 0.2.0
     dev: true
 
-  /@svelte-compose/cli@0.1.16(@svelte-compose/bootstrap@0.0.7)(@svelte-compose/bulma@0.1.14)(@svelte-compose/mdsvex@0.1.13)(@svelte-compose/routify@0.0.8)(@svelte-compose/tailwindcss@0.1.13):
-    resolution: {integrity: sha512-cS3O3iHS4Meykxa0bwkv1GEY1xl03XghxT836A4M8RnYPvGeDvTG0fH3vZzwqc/6mXCT/O63H/FiQoJreHX4yQ==}
+  /@svelte-compose/cli@2.0.1(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1):
+    resolution: {integrity: sha512-d0er5bC6qqdhFMPPtfkE6dZp8k73+VM1AmWCrhKhLpMuD6RTceZj5M6JccbroQl4KFDi6vYQ8gtnGdoWrJtKEQ==}
     hasBin: true
     peerDependencies:
-      '@svelte-compose/bootstrap': ^0.0.7
-      '@svelte-compose/bulma': ^0.1.14
-      '@svelte-compose/mdsvex': ^0.1.13
-      '@svelte-compose/routify': ^0.0.8
-      '@svelte-compose/tailwindcss': ^0.1.13
+      '@svelte-compose/bootstrap': ^0.1.1
+      '@svelte-compose/bulma': ^0.2.1
+      '@svelte-compose/mdsvex': ^0.3.1
+      '@svelte-compose/routify': ^0.2.1
+      '@svelte-compose/tailwindcss': ^0.2.1
     dependencies:
-      '@svelte-compose/bootstrap': 0.0.7
-      '@svelte-compose/bulma': 0.1.14
-      '@svelte-compose/core': 0.1.13
-      '@svelte-compose/mdsvex': 0.1.13
-      '@svelte-compose/routify': 0.0.8
-      '@svelte-compose/tailwindcss': 0.1.13
+      '@svelte-compose/bootstrap': 0.1.1
+      '@svelte-compose/bulma': 0.2.1
+      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/mdsvex': 0.3.1
+      '@svelte-compose/routify': 0.2.1
+      '@svelte-compose/tailwindcss': 0.2.1
     dev: true
 
-  /@svelte-compose/core@0.1.13:
-    resolution: {integrity: sha512-tOdmqa9mzQZk7a9ulmw3lxdTCLYV78aASfY055ginKdbEA5kbusmBS/6kziw+cq89PbEjOl4HWAnfCKx66y0Zw==}
+  /@svelte-compose/core@0.2.0:
+    resolution: {integrity: sha512-I6M4Z9O52DbSLK0UTNwEG50XhAWHywi7zNx5G04VTeWvFIH+FilC1if0nA/ilBHXK0G2TrVg9b92I3Bgln0wBw==}
     dependencies:
-      '@svelte-compose/ast-manipulation': 1.0.6
-      '@svelte-compose/ast-tooling': 0.1.5
+      '@svelte-compose/ast-manipulation': 1.2.0
+      '@svelte-compose/ast-tooling': 0.2.0
       prettier: 3.2.5
 
-  /@svelte-compose/mdsvex@0.1.13:
-    resolution: {integrity: sha512-MotBPFsjeSP3y1MFguXBuwMP1P+/6MYIFbFx746IXdiJWSSy/0pq6NQut9M345tf12oVYNTXeTh7MjvWPkhVvg==}
+  /@svelte-compose/mdsvex@0.3.1:
+    resolution: {integrity: sha512-CV0dTlu/SgcyWhDDzC8g5qLf8Dm/cP5F32API020mWu641KXcNwAn5uVp7k62E9YSrKCA3KUEAnvJ9q1Dyu1nA==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/core': 0.2.0
     dev: true
 
-  /@svelte-compose/routify@0.0.8:
-    resolution: {integrity: sha512-JKxw1OcSd3kRIrIiT2C/ooAXmVoDUs8+bBWcPg5BLcEC057R4ebfsqOyjcpkWzoOpZZjk/uxToW7swMI8QHM7Q==}
+  /@svelte-compose/routify@0.2.1:
+    resolution: {integrity: sha512-/MLi5aJkmrEWTCyLV5RNv5y2IBwbEWfdQ+KQNMtJqVN+/jXMbqw28W+BPK4OVe2NtyEFMp13/cEADF+M86mrhA==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/core': 0.2.0
     dev: true
 
-  /@svelte-compose/tailwindcss@0.1.13:
-    resolution: {integrity: sha512-H3GFXQQJ+yDjbsWknIhdsQT0Fofc16r+AEuyt8n1dcgEXTlk8LFz0dfzfpXhF8D8oj3Gw0h7PgCRHvGfoujpaA==}
+  /@svelte-compose/tailwindcss@0.2.1:
+    resolution: {integrity: sha512-LO07Sfep6kbUAe10OqnbAi053+DbT9X3yA/cClvdDMiGpweH1bsbxem2Nv+OnWJS/KbYydzT80S0Bvlj5OgIHg==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/core': 0.2.0
     dev: true
 
-  /@svelte-compose/testing-library@0.0.3(@svelte-compose/bootstrap@0.0.7)(@svelte-compose/bulma@0.1.14)(@svelte-compose/mdsvex@0.1.13)(@svelte-compose/routify@0.0.8)(@svelte-compose/tailwindcss@0.1.13):
-    resolution: {integrity: sha512-0o9Kw3eS9OfMAWQUFxLSSW+M+BqQZ3pX7ngW7G/shM3rHLpEozv1O/K0xml0sx4jGYKWfMjVk+0iIw49JFf79w==}
+  /@svelte-compose/testing-library@0.1.2(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1):
+    resolution: {integrity: sha512-cthEz9TO1tmXmeU9qoJqrmFWLc4u1vl3aF38UhSaCYnqpC2yDmMcsAJsFAyFEk+fahxx1OxCohQx67Cz1NQn5g==}
     dependencies:
-      '@svelte-compose/ast-tooling': 0.1.5
-      '@svelte-compose/cli': 0.1.16(@svelte-compose/bootstrap@0.0.7)(@svelte-compose/bulma@0.1.14)(@svelte-compose/mdsvex@0.1.13)(@svelte-compose/routify@0.0.8)(@svelte-compose/tailwindcss@0.1.13)
-      '@svelte-compose/core': 0.1.13
+      '@svelte-compose/ast-tooling': 0.2.0
+      '@svelte-compose/cli': 2.0.1(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1)
+      '@svelte-compose/core': 0.2.0
       create-svelte: 6.0.10
       puppeteer: 22.6.1
     transitivePeerDependencies:

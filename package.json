@@ -9,9 +9,9 @@
     "test": "node ./src/test.js"
   },
   "dependencies": {
-    "@svelte-compose/core": "^0.1.13"
+    "@svelte-compose/core": "^0.2.0"
   },
   "devDependencies": {
-    "@svelte-compose/testing-library": "^0.0.3"
+    "@svelte-compose/testing-library": "^0.1.2"
   }
 }
