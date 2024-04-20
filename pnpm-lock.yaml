@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   '@svelte-compose/core':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.2.3
+    version: 0.2.3
 
 devDependencies:
   '@svelte-compose/testing-library':
-    specifier: ^0.1.2
-    version: 0.1.2(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1)
+    specifier: ^0.1.5
+    version: 0.1.5(@svelte-compose/bootstrap@0.1.4)(@svelte-compose/bulma@0.2.4)(@svelte-compose/mdsvex@0.3.4)(@svelte-compose/routify@0.2.4)(@svelte-compose/tailwindcss@0.2.4)(@svelte-compose/threlte@0.0.4)
 
 packages:
 
@@ -73,80 +73,84 @@ packages:
       - supports-color
     dev: true
 
-  /@svelte-compose/ast-manipulation@1.2.0:
-    resolution: {integrity: sha512-C/pISd70E63NRsqemUVqIfwy60TxgwKOyjp08ZY+9bg7u0v5MP1ij2KXGqc4/MSNvoCyK99fzezMZi+jf/tbYA==}
+  /@svelte-compose/ast-manipulation@1.2.2:
+    resolution: {integrity: sha512-SvdW1XLHjaxEsYTSbW5zrVH2U6CTtHXvcn3QHsK9f/nV17Jq4lBaasNDYJ95y2zbDo/X42isrrR6JbJj9gfKZQ==}
     dependencies:
-      '@svelte-compose/ast-tooling': 0.2.0
+      '@svelte-compose/ast-tooling': 0.2.1
 
-  /@svelte-compose/ast-tooling@0.2.0:
-    resolution: {integrity: sha512-ilqyPbJ3r01ytZ/qhNuqN3xRCEymWYUk1Ju9ytPfMrPaFVADj3wf8sw8YZ+c1ijA2yuKS0+5mR00ASQuHwtbrw==}
+  /@svelte-compose/ast-tooling@0.2.1:
+    resolution: {integrity: sha512-frOsM2t1/genNwmAGh2uJoqALFHYObSsxC5RLLsqOCQtg6XbjPArZ7ixNmkLUyJ1if3Lf2XjZ02iMaDBJ5ThTA==}
+    dependencies:
+      golden-fleece: 1.0.9
 
-  /@svelte-compose/bootstrap@0.1.1:
-    resolution: {integrity: sha512-9CWqemMs1rP4J0o+Ul2zcfhGuvqY4a7mxkoBGkKDAs9DjiM1E5ZsMqMSiFjXeAbrXNRsQ5tfIKMgt4hHoZq5/w==}
+  /@svelte-compose/bootstrap@0.1.4:
+    resolution: {integrity: sha512-qOlFj/fmMFaxZ5AET3rP8HG+b3Q0O+678LzI69cfkkzDeijZokQrSBTwGajTKPUnSUvYk0b39cgSJSWoxJEuEg==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/core': 0.2.3
     dev: true
 
-  /@svelte-compose/bulma@0.2.1:
-    resolution: {integrity: sha512-RY4oxve8cOgLguQhiig8rIG+n0V9qdf3SW4NfxKW2x2qWvcCqXFhoSseEMoz4kPlum3Yqh0af9mu8asv6lBOHA==}
+  /@svelte-compose/bulma@0.2.4:
+    resolution: {integrity: sha512-HlzToCwRb7T0OmETmQFNRTVyYO7RKYWzZsRJpkcKME8ApKkBlKGXT46y3ImPXfOz8inD6JOiXCNnsAOCyPaaqQ==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/core': 0.2.3
     dev: true
 
-  /@svelte-compose/cli@2.0.1(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1):
-    resolution: {integrity: sha512-d0er5bC6qqdhFMPPtfkE6dZp8k73+VM1AmWCrhKhLpMuD6RTceZj5M6JccbroQl4KFDi6vYQ8gtnGdoWrJtKEQ==}
+  /@svelte-compose/cli@2.0.4(@svelte-compose/bootstrap@0.1.4)(@svelte-compose/bulma@0.2.4)(@svelte-compose/mdsvex@0.3.4)(@svelte-compose/routify@0.2.4)(@svelte-compose/tailwindcss@0.2.4)(@svelte-compose/threlte@0.0.4):
+    resolution: {integrity: sha512-JapDPyXlm2IWGntY0xk4cgO23xTm+gKJ0ouWIZC19DysqksvbauJnYfPVXnQuIYaNa+rbLazjGedvov2z76VkA==}
     hasBin: true
     peerDependencies:
-      '@svelte-compose/bootstrap': ^0.1.1
-      '@svelte-compose/bulma': ^0.2.1
-      '@svelte-compose/mdsvex': ^0.3.1
-      '@svelte-compose/routify': ^0.2.1
-      '@svelte-compose/tailwindcss': ^0.2.1
+      '@svelte-compose/bootstrap': ^0.1.4
+      '@svelte-compose/bulma': ^0.2.4
+      '@svelte-compose/mdsvex': ^0.3.4
+      '@svelte-compose/routify': ^0.2.4
+      '@svelte-compose/tailwindcss': ^0.2.4
+      '@svelte-compose/threlte': ^0.0.4
     dependencies:
-      '@svelte-compose/bootstrap': 0.1.1
-      '@svelte-compose/bulma': 0.2.1
-      '@svelte-compose/core': 0.2.0
-      '@svelte-compose/mdsvex': 0.3.1
-      '@svelte-compose/routify': 0.2.1
-      '@svelte-compose/tailwindcss': 0.2.1
+      '@svelte-compose/bootstrap': 0.1.4
+      '@svelte-compose/bulma': 0.2.4
+      '@svelte-compose/core': 0.2.3
+      '@svelte-compose/mdsvex': 0.3.4
+      '@svelte-compose/routify': 0.2.4
+      '@svelte-compose/tailwindcss': 0.2.4
+      '@svelte-compose/threlte': 0.0.4
     dev: true
 
-  /@svelte-compose/core@0.2.0:
-    resolution: {integrity: sha512-I6M4Z9O52DbSLK0UTNwEG50XhAWHywi7zNx5G04VTeWvFIH+FilC1if0nA/ilBHXK0G2TrVg9b92I3Bgln0wBw==}
+  /@svelte-compose/core@0.2.3:
+    resolution: {integrity: sha512-Z4IaKVh1y+3APL7KInwr3EeI5Knx5uzR8bH7k1jxNCpWS8k0H9++hHZ1KpE+w2/oSkPh5e6CWi3hOesVj3TPow==}
     dependencies:
-      '@svelte-compose/ast-manipulation': 1.2.0
-      '@svelte-compose/ast-tooling': 0.2.0
+      '@svelte-compose/ast-manipulation': 1.2.2
+      '@svelte-compose/ast-tooling': 0.2.1
       prettier: 3.2.5
 
-  /@svelte-compose/mdsvex@0.3.1:
-    resolution: {integrity: sha512-CV0dTlu/SgcyWhDDzC8g5qLf8Dm/cP5F32API020mWu641KXcNwAn5uVp7k62E9YSrKCA3KUEAnvJ9q1Dyu1nA==}
+  /@svelte-compose/mdsvex@0.3.4:
+    resolution: {integrity: sha512-O/2iOIdIKJwV0qVO/lszODElW2A6l/WQOaVr8g2oXWpJ3kimynTnDgcE8KNX8Ik4VrWThfkLpZGzXPdOEiscnA==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/core': 0.2.3
     dev: true
 
-  /@svelte-compose/routify@0.2.1:
-    resolution: {integrity: sha512-/MLi5aJkmrEWTCyLV5RNv5y2IBwbEWfdQ+KQNMtJqVN+/jXMbqw28W+BPK4OVe2NtyEFMp13/cEADF+M86mrhA==}
+  /@svelte-compose/routify@0.2.4:
+    resolution: {integrity: sha512-Diw8ZMpFc6do/p7bwKb5zcTkMscW0TEQWb/EJc65jfUIcPIdhjgDU2Y/8QueieQCrrduqStOM4GVFl1/9uA6fA==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/core': 0.2.3
     dev: true
 
-  /@svelte-compose/tailwindcss@0.2.1:
-    resolution: {integrity: sha512-LO07Sfep6kbUAe10OqnbAi053+DbT9X3yA/cClvdDMiGpweH1bsbxem2Nv+OnWJS/KbYydzT80S0Bvlj5OgIHg==}
+  /@svelte-compose/tailwindcss@0.2.4:
+    resolution: {integrity: sha512-F+xwODrc230KXk4IGT9Hmpy6677m9JEncyCFdQHh4B8OwraGtljboQiDJtiUar2TV/W2NbXv+vj1t0DFZbs7YQ==}
     hasBin: true
     dependencies:
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/core': 0.2.3
     dev: true
 
-  /@svelte-compose/testing-library@0.1.2(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1):
-    resolution: {integrity: sha512-cthEz9TO1tmXmeU9qoJqrmFWLc4u1vl3aF38UhSaCYnqpC2yDmMcsAJsFAyFEk+fahxx1OxCohQx67Cz1NQn5g==}
+  /@svelte-compose/testing-library@0.1.5(@svelte-compose/bootstrap@0.1.4)(@svelte-compose/bulma@0.2.4)(@svelte-compose/mdsvex@0.3.4)(@svelte-compose/routify@0.2.4)(@svelte-compose/tailwindcss@0.2.4)(@svelte-compose/threlte@0.0.4):
+    resolution: {integrity: sha512-coiK0hSfyA88MeeAXQ7YQZ23qP9ZTpoOlllhq7tdVVqi95V2/T/eeD+GG/zrx8PdTZ9qXU99HPysur2KtA3kSA==}
     dependencies:
-      '@svelte-compose/ast-tooling': 0.2.0
-      '@svelte-compose/cli': 2.0.1(@svelte-compose/bootstrap@0.1.1)(@svelte-compose/bulma@0.2.1)(@svelte-compose/mdsvex@0.3.1)(@svelte-compose/routify@0.2.1)(@svelte-compose/tailwindcss@0.2.1)
-      '@svelte-compose/core': 0.2.0
+      '@svelte-compose/ast-tooling': 0.2.1
+      '@svelte-compose/cli': 2.0.4(@svelte-compose/bootstrap@0.1.4)(@svelte-compose/bulma@0.2.4)(@svelte-compose/mdsvex@0.3.4)(@svelte-compose/routify@0.2.4)(@svelte-compose/tailwindcss@0.2.4)(@svelte-compose/threlte@0.0.4)
+      '@svelte-compose/core': 0.2.3
       create-svelte: 6.0.10
       puppeteer: 22.6.1
     transitivePeerDependencies:
@@ -155,10 +159,18 @@ packages:
       - '@svelte-compose/mdsvex'
       - '@svelte-compose/routify'
       - '@svelte-compose/tailwindcss'
+      - '@svelte-compose/threlte'
       - bufferutil
       - supports-color
       - typescript
       - utf-8-validate
+    dev: true
+
+  /@svelte-compose/threlte@0.0.4:
+    resolution: {integrity: sha512-HYFIixh/VjnFLYnFrT3AeKR13zE6ZOKlC7MgtIfK8mr2ruIkqhdyCdhBY47fxq3tkgTu+fVWqTSASJfrXqcMEg==}
+    hasBin: true
+    dependencies:
+      '@svelte-compose/core': 0.2.3
     dev: true
 
   /@tootallnate/quickjs-emscripten@0.23.0:
@@ -498,6 +510,9 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /golden-fleece@1.0.9:
+    resolution: {integrity: sha512-YSwLaGMOgSBx9roJlNLL12c+FRiw7VECphinc6mGucphc/ZxTHgdEz6gmJqH6NOzYEd/yr64hwjom5pZ+tJVpg==}
 
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
