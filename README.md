@@ -1,5 +1,6 @@
 # composer-template
 > ⚠️ Moved to svelte-add
+
 This is a composer template for an external composer. External composers are not intended to be published within the `@svelte-compose` organization. Thus this external composers will not appear on the `svelte-compose` website.
 
 ## IMPORTANT
